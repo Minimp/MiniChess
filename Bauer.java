@@ -26,6 +26,7 @@ public class Bauer extends Actor implements Weiss
        {
            x1 = this.getX();
            y1 = this.getY();
+           System.out.println("Bauer Location:")
            System.out.println("X: " + x1 + " ; Y: " + y1);
            
            if(this.getOneObjectAtOffset(1,-1,Schwarz.class) != null || this.getOneObjectAtOffset(-1,-1,Schwarz.class) != null)
